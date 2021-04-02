@@ -1,3 +1,5 @@
-section h1 {
-    text-align: center;
+.container {
+background-color: orangered;
+width: 700px;
+height: 600px;
 }
