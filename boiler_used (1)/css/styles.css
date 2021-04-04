@@ -1,10 +1,82 @@
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
+	font-size: 62.5%;
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
 }
+
+/* end of common styles */
+
+/* navabar */
+/* sidebar */
+.sidebar {
+	width: 8rem;
+	height: 100%;
+	background-color: #eee;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social-icons-list {
+	list-style: none;
+	padding: 0;
+	height: 25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.social-link {
+	color: #777;
+	font-size: 2rem;
+	transition: color 0.3s;
+}
+.social-link:hover {
+	color: #deaa86;
+}
+.line {
+	height: 0.2rem;
+	width: 2.5rem;
+	background-color: #222;
+	margin-bottom: 0.6rem;
+}
+
+.line-1,
+.line-3 {
+	width: 1.8rem;
+	transition-duration: 0.3s;
+}
+.year {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	color: #555;
+}
+.menu-icon {
+	margin-top: 3rem;
+	cursor: pointer;
+}
+.menu-icon:hover .line {
+	width: 2.5rem;
+}
+/* end of sidebar */
+/* navigation */
+.navigation{
+	margin-left: 8rem ;
+	position: fixed;
+	width: 40rem;
+	height: 100%;
+	background: linear-gradient(to top,rgba(34,32,41,.5), rgba(34,32,41, .5
+	)), url(/image/grand-lisboa-hotel-and-casino-macau-china-uhd-4k-wallpaper.jpg);
+	/* background-attachment:scroll; */
+	background-size: cover;
+	background-position-x: -500px;
+}
+/* end of navigation */
+/* end of navbar */
